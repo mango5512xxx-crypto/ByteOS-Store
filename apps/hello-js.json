@@ -1,0 +1,12 @@
+{
+  "id": "com.byteos.hellojs",
+  "name": "Hello QuickJS",
+  "version": "1.0.0",
+  "author": "QuickJS Engine",
+  "category": "development",
+  "type": "js",
+  "size_kb": 4,
+  "download_url": "packages/hello-js/hello.js",
+  "executable": "hello.js",
+  "description": "Скриптовое веб-приложение ES2020: работа с LocalStorage, объектами и DOM"
+}

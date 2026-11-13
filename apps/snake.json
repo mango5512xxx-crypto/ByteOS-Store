@@ -1,0 +1,12 @@
+{
+  "id": "com.byteos.snake",
+  "name": "Retro Snake",
+  "version": "1.2.0",
+  "author": "ByteStore Community",
+  "category": "games",
+  "type": "js",
+  "size_kb": 16,
+  "download_url": "packages/snake/snake.js",
+  "executable": "snake.js",
+  "description": "Классическая ретро-игра Змейка для ByteOS с плавной анимацией"
+}

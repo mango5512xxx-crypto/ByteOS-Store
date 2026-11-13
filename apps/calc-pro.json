@@ -1,0 +1,12 @@
+{
+  "id": "com.byteos.calcpro",
+  "name": "Calc Pro Scientific",
+  "version": "2.1.0",
+  "author": "ByteOS Utilities",
+  "category": "utilities",
+  "type": "js",
+  "size_kb": 18,
+  "download_url": "packages/calc-pro/calc_pro.js",
+  "executable": "calc_pro.js",
+  "description": "Инженерный калькулятор с поддержкой формул, тригонометрии и памяти"
+}

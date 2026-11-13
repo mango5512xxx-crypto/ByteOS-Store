@@ -1,0 +1,12 @@
+{
+  "id": "com.byteos.helloc",
+  "name": "Hello C Native",
+  "version": "1.0.0",
+  "author": "ByteOS SDK",
+  "category": "development",
+  "type": "elf",
+  "size_kb": 8,
+  "download_url": "packages/hello-c/hello.elf",
+  "executable": "hello.elf",
+  "description": "Нативный 64-битный автономный ELF бинарник со системными вызовами int 0x80"
+}
