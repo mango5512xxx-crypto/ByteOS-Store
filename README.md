@@ -1,4 +1,4 @@
-# 🛍️ ByteOS Store — Decentralized Binary & Web Package Repository
+# 🛍️ Байт Стор (Byte Store) — Decentralized Binary & Web Package Repository
 
 [English](#-english) | [Русский](#-русский)
 
@@ -7,7 +7,7 @@
 <a name="-english"></a>
 ## 🇬🇧 English
 
-**ByteOS Store** is the official decentralized application repository and package delivery system for **ByteOS**. 
+**Байт Стор (Byte Store)** is the official decentralized application repository and package delivery system for **ByteOS**. 
 
 Instead of requiring users to compile software from source on the machine (like Gentoo), **ByteOS Store distributes ready-to-run precompiled binaries (freestanding 64-bit ELF)** and **JavaScript applications powered by the embedded QuickJS ES2020 engine**.
 
@@ -68,7 +68,7 @@ ByteOS-Store/
 <a name="-русский"></a>
 ## 🇷🇺 Русский
 
-**ByteOS Store** — это официальный децентрализованный каталог и система доставки готовых приложений для **ByteOS**.
+**Байт Стор (Byte Store)** — это официальный децентрализованный каталог и система доставки готовых приложений для **ByteOS**.
 
 В отличие от исходных дистрибутивов (вроде Gentoo), где программы компилируются на целевом устройстве, **ByteOS Store распространяет готовые скомпилированные бинарники (автономные 64-битные ELF)**, а также **скриптовые приложения на JavaScript (на базе встроенного движка QuickJS ES2020)**.
 
