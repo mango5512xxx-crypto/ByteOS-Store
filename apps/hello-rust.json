@@ -1,0 +1,13 @@
+{
+  "id": "com.byteos.hellorust",
+  "name": "Hello Rust Native",
+  "version": "1.0.0",
+  "author": "ByteOS SDK Team",
+  "category": "development",
+  "type": "elf",
+  "size_kb": 13,
+  "stars": 5,
+  "download_url": "packages/hello-rust/hello_rust.elf",
+  "executable": "hello_rust.elf",
+  "description": "Safe, freestanding 64-bit ELF binary written in no_std Rust using int 0x80 syscalls"
+}

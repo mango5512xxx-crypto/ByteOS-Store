@@ -1,60 +1,27 @@
 {
   "name": "Байт Стор (Byte Store)",
-  "version": "1.0.0",
-  "updated_at": "2026-11-13T18:00:00Z",
+  "version": "1.1.0",
+  "updated_at": "2026-11-13T19:00:00Z",
   "categories": [
-    { "id": "featured", "name": "Рекомендации", "icon": "g_star" },
-    { "id": "games", "name": "Игры", "icon": "g_games" },
-    { "id": "utilities", "name": "Утилиты", "icon": "g_calc" },
-    { "id": "internet", "name": "Интернет", "icon": "g_globe" },
-    { "id": "development", "name": "Разработка", "icon": "g_terminal" }
+    { "id": "all", "name": "All Packages", "icon": "g_star" },
+    { "id": "development", "name": "Developer", "icon": "g_terminal" },
+    { "id": "games", "name": "Games", "icon": "g_games" },
+    { "id": "utilities", "name": "Utilities", "icon": "g_calc" }
   ],
   "apps": [
     {
-      "id": "com.byteos.byteweb",
-      "name": "Byte Web",
+      "id": "com.byteos.hellorust",
+      "name": "Hello Rust Native",
       "version": "1.0.0",
-      "author": "ByteOS Team",
-      "category": "internet",
-      "type": "system",
-      "size_kb": 480,
+      "author": "ByteOS SDK Team",
+      "category": "development",
+      "type": "elf",
+      "size_kb": 13,
       "stars": 5,
-      "description": "Быстрый минималистичный браузер в стиле Chrome с поддержкой QuickJS и NetSurf"
-    },
-    {
-      "id": "com.idsoftware.doom",
-      "name": "DOOM Classic",
-      "version": "1.9",
-      "author": "id Software",
-      "category": "games",
-      "type": "system",
-      "size_kb": 24100,
-      "stars": 5,
-      "description": "Легендарный 3D-шутер с полноэкранным рендерингом и звуком"
-    },
-    {
-      "id": "com.classicube.client",
-      "name": "ClassiCube",
-      "version": "1.3.6",
-      "author": "ClassiCube Team",
-      "category": "games",
-      "type": "system",
-      "size_kb": 16800,
-      "stars": 5,
-      "description": "3D воксельная песочница, совместимая с классическим Minecraft"
-    },
-    {
-      "id": "com.byteos.snake",
-      "name": "Retro Snake",
-      "version": "1.2.0",
-      "author": "ByteStore Community",
-      "category": "games",
-      "type": "js",
-      "size_kb": 16,
-      "stars": 4,
-      "download_url": "packages/snake/snake.js",
-      "executable": "snake.js",
-      "description": "Классическая ретро-игра Змейка для ByteOS с плавной анимацией"
+      "download_url": "packages/hello-rust/hello_rust.elf",
+      "executable": "hello_rust.elf",
+      "description": "Safe, freestanding 64-bit ELF binary written in no_std Rust using int 0x80 syscalls",
+      "has_photo": true
     },
     {
       "id": "com.byteos.helloc",
@@ -67,20 +34,22 @@
       "stars": 5,
       "download_url": "packages/hello-c/hello.elf",
       "executable": "hello.elf",
-      "description": "Нативный 64-битный автономный ELF бинарник со системными вызовами int 0x80"
+      "description": "Standalone 64-bit ELF binary written in C with int 0x80 syscall ABI",
+      "has_photo": true
     },
     {
-      "id": "com.byteos.hellojs",
-      "name": "Hello QuickJS",
-      "version": "1.0.0",
-      "author": "QuickJS Engine",
-      "category": "development",
+      "id": "com.byteos.snake",
+      "name": "Retro Snake",
+      "version": "1.2.0",
+      "author": "ByteStore Community",
+      "category": "games",
       "type": "js",
-      "size_kb": 4,
+      "size_kb": 16,
       "stars": 5,
-      "download_url": "packages/hello-js/hello.js",
-      "executable": "hello.js",
-      "description": "Скриптовое веб-приложение ES2020: работа с LocalStorage, объектами и DOM"
+      "download_url": "packages/snake/snake.js",
+      "executable": "snake.js",
+      "description": "Classic arcade Snake game with smooth animations, scoreboard and levels",
+      "has_photo": true
     },
     {
       "id": "com.byteos.calcpro",
@@ -93,7 +62,22 @@
       "stars": 4,
       "download_url": "packages/calc-pro/calc_pro.js",
       "executable": "calc_pro.js",
-      "description": "Инженерный калькулятор с поддержкой формул, тригонометрии и памяти"
+      "description": "Scientific calculator with math formulas, trigonometry and memory storage",
+      "has_photo": true
+    },
+    {
+      "id": "com.byteos.hellojs",
+      "name": "Hello QuickJS",
+      "version": "1.0.0",
+      "author": "QuickJS Engine",
+      "category": "development",
+      "type": "js",
+      "size_kb": 4,
+      "stars": 5,
+      "download_url": "packages/hello-js/hello.js",
+      "executable": "hello.js",
+      "description": "Scripted ES2020 app with LocalStorage, Console logging and DOM API integration",
+      "has_photo": true
     }
   ]
 }

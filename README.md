@@ -93,6 +93,7 @@ ByteOS-Store/
 │   └── byte-web.json
 ├── packages/                   # Готовые бинарники и скрипты
 │   ├── hello-c/hello.elf
+│   ├── hello-rust/hello_rust.elf
 │   ├── hello-js/hello.js
 │   ├── snake/snake.js
 │   └── calc-pro/calc_pro.js
